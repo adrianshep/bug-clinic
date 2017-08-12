@@ -13,7 +13,7 @@ var bowser = function (callback) {
 
 var koopa = function (error, file) {
   // handle error by printing something to stderr
-  console.error('an error occurred');
+  if (err) return console.error('an error occurred');
 
   peach(JSON.parse(file));
 };
