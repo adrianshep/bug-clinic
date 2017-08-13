@@ -12,7 +12,7 @@ var bowser = function (callback) {
   fs.readFile(process.argv[2], {encoding : "utf8"}, callback);
 };
 
-var koopa = function (error, file) {
+var koopa = function (err, file) {
   // handle error by printing something to stderr
   if (err) return console.error('an error occurred');
 
