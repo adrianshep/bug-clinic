@@ -5,6 +5,7 @@ var peach = function (obj) {
   // trace the message "traced"
   console.trace('traced');
   // dump obj to stdout
+  console.log(obj);
 };
 
 var bowser = function (callback) {
